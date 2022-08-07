@@ -8,7 +8,7 @@ function ItemMenus(props) {
     return (
        <div>
 <section>
-  <div class="max-w-screen-xl px-4 py-8 mx-auto">
+  <div class="max-w-screen-xl px-4 py-8">
     <div>
     <div className='neutral-block'>
     <div class="flex space-x-8">
