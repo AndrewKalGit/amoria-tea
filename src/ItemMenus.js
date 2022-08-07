@@ -6,9 +6,9 @@ import Ube from './BubbleTeaImg/UbeLatte1.jpg'
 
 function ItemMenus(props) {
     return (
-       <div>
+<div class="ml-12 md:ml-20 lg:ml-24 xl:ml-32 2xl:ml-52 min-w-full max-h-fit">
 <section>
-  <div class="max-w-screen-xl px-4 py-8">
+  <div class="px-4 py-8 w-3/4">
     <div>
     <div className='neutral-block'>
     <div class="flex space-x-8">
@@ -34,11 +34,10 @@ function ItemMenus(props) {
         <div class="flex justify-center">
           <strong class="relative h-6 px-4 text-xs leading-6 text-white mb-2"> <span class='bg-blue-400 pl-1 pr-1'>COLD</span> <span class='bg-red-400 pl-1 pr-1'>HOT</span></strong>
         </div>
-
         <img
-          alt="Trainer Product"
+          alt="Product"
           src={Rose}
-          class="object-contain w-full -mt-3 h-max rounded-3xl opacity-95 hover:opacity-100"
+          class="object-contain w-full -mt-3 rounded-xl opacity-95 hover:opacity-100"
         />
 
         <h5 className="maven">
@@ -56,11 +55,11 @@ function ItemMenus(props) {
         <div class="flex justify-center">
           <strong class="relative h-6 px-4 text-xs leading-6 text-white mb-2"> <span class='bg-blue-400 pl-1 pr-1'>COLD</span> <span class='bg-red-400 pl-1 pr-1'>HOT</span></strong>
         </div>
-
+      
         <img
-          alt="Trainer Product"
+          alt="Product"
           src={Strawberry}
-          class="object-contain w-full -mt-3 h-max rounded-3xl opacity-95 hover:opacity-100"
+          class="object-contain w-full -mt-3 rounded-xl opacity-95 hover:opacity-100"
         />
 
         <h5 className="maven">
@@ -80,9 +79,9 @@ function ItemMenus(props) {
         </div>
 
         <img
-          alt="Trainer Product"
+          alt="Product"
           src={Strawberry2slush}
-          class="object-contain w-full -mt-3 h-max rounded-3xl opacity-95 hover:opacity-100"
+          class="object-contain w-full -mt-3 rounded-xl opacity-95 hover:opacity-100"
         />
 
        <h5 className="maven">
@@ -103,9 +102,9 @@ function ItemMenus(props) {
         </div>
 
         <img
-          alt="Trainer Product"
+          alt="Product"
           src={Ube}
-          class="object-contain w-full -mt-3 h-max rounded-3xl opacity-95 hover:opacity-100"
+          class="object-contain w-full -mt-3 rounded-xl opacity-95 hover:opacity-100"
         />
 
         <h5 className="maven">
