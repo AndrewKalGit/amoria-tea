@@ -6,10 +6,10 @@ import Ube from './BubbleTeaImg/UbeLatte1.jpg'
 
 function ItemMenus(props) {
     return (
-<div class="ml-12 md:ml-20 lg:ml-24 xl:ml-32 2xl:ml-52 min-w-full max-h-fit">
+<div class="mt-8">
 <section>
   <div class="px-4 py-8 w-3/4">
-    <div>
+    <div class="flex justify-start">
     <div className='neutral-block'>
     <div class="flex space-x-8">
         {/* Wrap these links for Routers and change */}
