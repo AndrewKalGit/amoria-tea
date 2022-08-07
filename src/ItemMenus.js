@@ -22,7 +22,7 @@ function ItemMenus(props) {
         <h2 class="mt-1 font-extrabold tracking-wide uppercase lg:text-xl md:text-lg sm:text-md text-xs opacity-80 hover:opacity-100">
         Milk
       </h2>
-        <h2 class="mt-1 font-extrabold tracking-wide uppercase lg:text-xl md:text-lg sm:text-md text-xs opacity-80 hover:opacity-100">
+        <h2 class="mt-1 font-extrabold tracking-wide uppercase lg:text-xl md:text-lg sm:text-md text-xs ">
         Others
       </h2>
     </div>
@@ -32,13 +32,13 @@ function ItemMenus(props) {
     <div class="grid grid-cols-2 mt-8 lg:grid-cols-4 gap-x-4 gap-y-8">
       <a href="" class="block">
         <div class="flex justify-center">
-          <strong class="relative h-6 px-4 text-xs leading-6 text-white"> <span class='bg-blue-400 pl-1 pr-1'>COLD</span> <span class='bg-red-400 pl-1 pr-1'>HOT</span></strong>
+          <strong class="relative h-6 px-4 text-xs leading-6 text-white mb-2"> <span class='bg-blue-400 pl-1 pr-1'>COLD</span> <span class='bg-red-400 pl-1 pr-1'>HOT</span></strong>
         </div>
 
         <img
           alt="Trainer Product"
           src={Rose}
-          class="object-contain w-full -mt-3 h-max rounded-3xl"
+          class="object-contain w-full -mt-3 h-max rounded-3xl opacity-95 hover:opacity-100"
         />
 
         <h5 className="maven">
@@ -54,13 +54,13 @@ function ItemMenus(props) {
 
       <a href="" class="block">
         <div class="flex justify-center">
-          <strong class="relative h-6 px-4 text-xs leading-6 text-white"> <span class='bg-blue-400 pl-1 pr-1'>COLD</span> <span class='bg-red-400 pl-1 pr-1'>HOT</span></strong>
+          <strong class="relative h-6 px-4 text-xs leading-6 text-white mb-2"> <span class='bg-blue-400 pl-1 pr-1'>COLD</span> <span class='bg-red-400 pl-1 pr-1'>HOT</span></strong>
         </div>
 
         <img
           alt="Trainer Product"
           src={Strawberry}
-          class="object-contain w-full -mt-3 h-max rounded-3xl"
+          class="object-contain w-full -mt-3 h-max rounded-3xl opacity-95 hover:opacity-100"
         />
 
         <h5 className="maven">
@@ -76,13 +76,13 @@ function ItemMenus(props) {
 
       <a href="" class="block">
       <div class="flex justify-center">
-          <strong class="relative h-6 px-4 text-xs leading-6 text-white"><span class='bg-blue-400 pl-1 pr-1'>COLD</span></strong>
+          <strong class="relative h-6 px-4 text-xs leading-6 text-white mb-2"><span class='bg-blue-400 pl-1 pr-1'>COLD</span></strong>
         </div>
 
         <img
           alt="Trainer Product"
           src={Strawberry2slush}
-          class="object-contain w-full -mt-3 h-max rounded-3xl"
+          class="object-contain w-full -mt-3 h-max rounded-3xl opacity-95 hover:opacity-100"
         />
 
        <h5 className="maven">
@@ -99,13 +99,13 @@ function ItemMenus(props) {
 
       <a href="" class="block">
         <div class="flex justify-center">
-          <strong class="relative h-6 px-4 text-xs leading-6 text-white"> <span class='bg-red-400 pl-1 pr-1'>HOT</span></strong>
+          <strong class="relative h-6 px-4 text-xs leading-6 text-white mb-2"> <span class='bg-red-400 pl-1 pr-1'>HOT</span></strong>
         </div>
 
         <img
           alt="Trainer Product"
           src={Ube}
-          class="object-contain w-full -mt-3 h-max rounded-3xl"
+          class="object-contain w-full -mt-3 h-max rounded-3xl opacity-95 hover:opacity-100"
         />
 
         <h5 className="maven">

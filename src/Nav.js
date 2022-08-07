@@ -18,13 +18,13 @@ function Nav(props) {
           <ul class="flex items-center gap-6 text-2xl">
             <li>
               <a class="transition hover:text-black/75" href="/">
-                About
+                Menu
               </a>
             </li>
 
             <li>
               <a class="transition hover:text-black/75" href="/">
-                Menu
+                About
               </a>
             </li>
 

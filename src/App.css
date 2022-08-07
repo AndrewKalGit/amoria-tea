@@ -4,9 +4,18 @@ html {
   background-size: auto 200%;
 }
 
-
-
 .headerForNav {}
+
+.man-making-tea-container {
+  display: flex;
+  justify-content: end;
+  margin-right: 12px;
+  display: none;
+}
+
+.man-making-tea-img {
+  border-radius: 12px;
+}
 
 .neutral-block {
   display: inline-block;
@@ -19,6 +28,10 @@ html {
   font-family: 'Maven Pro', sans-serif;
   font-weight: bold;
   margin-top: 1rem;
+}
+
+.maven-text-statement {
+  display: none;
 }
 
 .maven-grassjelly {
@@ -48,4 +61,26 @@ html {
   height: 32px;
   border-radius: 4px;
   color: #f3e0c2;
+}
+
+@media only screen and (min-width:768px) {
+
+  .man-making-tea-container {
+    display: flex;
+    width: 80%;
+    margin-top: 25px;
+  }
+
+  .maven-text-statement {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 900;
+    margin-top: 25px;
+    margin-left: 24px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+  }
+
 }
