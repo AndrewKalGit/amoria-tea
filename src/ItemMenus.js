@@ -1,20 +1,32 @@
 import React from 'react';
-import Rose from './BubbleTeaImg/RoseGarden.jpg';
-import Strawberry from './BubbleTeaImg/StrawberryMatchaLatte1.jpg'
-import Strawberry2slush from './BubbleTeaImg/StrawberrySlush3.jpg'
+import Rose from './BubbleTeaImg/RoseGarden.jpg'
+import Strawberry from './BubbleTeaImg/Strawberry MatchaLatte 1.jpg'
+import Strawberry2slush from './BubbleTeaImg/Strawberry Slush 3.jpg'
 import Ube from './BubbleTeaImg/UbeLatte1.jpg'
 
 function ItemMenus(props) {
     return (
-        <div>
-            <section>
+       <div>
+<section>
   <div class="max-w-screen-xl px-4 py-8 mx-auto">
     <div>
     <div className='neutral-block'>
-    </div>
-      <h2 class="mt-1 text-2xl font-extrabold tracking-wide uppercase lg:text-3xl">
+    <div class="flex space-x-8">
+        {/* Wrap these links for Routers and change */}
+        <h2 class="mt-1 font-extrabold tracking-wide uppercase lg:text-xl md:text-lg sm:text-md text-xs opacity-80 hover:opacity-100">
         Signature
       </h2>
+        <h2 class="mt-1 font-extrabold tracking-wide uppercase lg:text-xl md:text-lg sm:text-md text-xs opacity-80 hover:opacity-100">
+        Teas
+      </h2>
+        <h2 class="mt-1 font-extrabold tracking-wide uppercase lg:text-xl md:text-lg sm:text-md text-xs opacity-80 hover:opacity-100">
+        Milk
+      </h2>
+        <h2 class="mt-1 font-extrabold tracking-wide uppercase lg:text-xl md:text-lg sm:text-md text-xs opacity-80 hover:opacity-100">
+        Others
+      </h2>
+    </div>
+    </div>
     </div>
 
     <div class="grid grid-cols-2 mt-8 lg:grid-cols-4 gap-x-4 gap-y-8">
@@ -115,4 +127,3 @@ function ItemMenus(props) {
 }
 
 export default ItemMenus;
- 
