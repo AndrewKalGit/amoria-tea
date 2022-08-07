@@ -17,7 +17,7 @@ html {
   display: block;
   margin-top: auto;
   margin-bottom: auto;
-  border-radius: 12px;
+  border-radius: 10px;
 }
 
 .neutral-block {
@@ -30,7 +30,7 @@ html {
 .maven {
   font-family: 'Maven Pro', sans-serif;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 10px;
   margin-top: 1rem;
 }
 
@@ -87,6 +87,13 @@ html {
     margin-bottom: 120px;
   }
 
+  .maven {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 1rem;
+  }
+
 }
 
 @media only screen and (min-width:768px) {
@@ -96,5 +103,12 @@ html {
     width: 100%;
     margin-top: 25px;
     height: 100%;
+  }
+
+  .maven {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 1rem;
   }
 }
