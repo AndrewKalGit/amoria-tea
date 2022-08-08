@@ -1,12 +1,10 @@
-import logo from './logo.svg';
-import Nav from './Nav';
-// import Menu from './Menu';
+import Nav from './Components/Nav';
 import './App.css';
-import Anc from './Anc';
-import Footer from './Footer';
-import Header from './Header';
-import ItemMenus from './ItemMenus';
-import Statement from './Statement';
+import Anc from './Components/Anc';
+import Footer from './Components/Footer';
+import Header from './Components/Header';
+import ItemMenus from './Components/ItemMenus';
+import Statement from './Components/Statement';
 
 function App() {
   return (
@@ -16,7 +14,6 @@ function App() {
       <Nav></Nav>
       <Statement></Statement>
       <ItemMenus></ItemMenus>
-      {/* <Menu></Menu> */}
       <Footer></Footer>
     </div>
   );

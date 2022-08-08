@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from './snail-transparent.png';
+import Logo from '../SiteImg/snail-transparent.png';
 
 function Header(props) {
     return (
