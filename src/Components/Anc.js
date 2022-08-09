@@ -3,10 +3,9 @@ import React from 'react';
 function Anc(props) {
 
     return (
-        <div class="relative px-4 py-3 text-white bg-indigo-600 pr-14">
+<div class="relative px-4 py-3 text-white bg-indigo-600 pr-14">
   <p class="text-sm font-medium text-left sm:text-center">
     Bubble tea 
-
     <a class="underline" href="/alpinejs"> Learn More &rarr; </a>
   </p>
 
