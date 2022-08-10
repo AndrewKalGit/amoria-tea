@@ -18,7 +18,7 @@ function Nav(props) {
         <div class="nav-ul-container">
           <ul class="flex items-center gap-10 text-2xl">
             <li>
-              <Link to="/menu" class="transition hover:text-black/75">
+              <Link to="/" class="transition hover:text-black/75">
                 Menu
               </Link>
             </li>

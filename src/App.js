@@ -18,7 +18,7 @@ function App() {
       <StatementHeading></StatementHeading>
       <Nav></Nav>
       <Routes>
-      <Route path="/menu" element={<ItemMenus/>}></Route>
+      <Route path="/" element={<ItemMenus/>}></Route>
       <Route path="/about" element={<><Statement/><About/></>}></Route>
       </Routes>
        <Footer></Footer>
