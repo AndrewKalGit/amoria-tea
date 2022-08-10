@@ -7,13 +7,18 @@ html {
 
 svg {
   color: #3d3d3d;
-  opacity: .9;
-  transition: .3s;
+  opacity: .8;
 }
 
 svg:hover {
   opacity: 1;
 }
+
+.hamburger-icon {
+  color: #3d3d3d;
+  opacity: 1;
+}
+
 
 .headerForNav {}
 
@@ -79,10 +84,9 @@ svg:hover {
 }
 
 .hamburger-icon {
-  background-color: #f2b795;
+  background-image: linear-gradient(#f3e0c2, #eb905a)3e0c2;
   height: 32px;
   border-radius: 4px;
-  color: #f3e0c2;
 }
 
 @media only screen and (min-width:1024px) {

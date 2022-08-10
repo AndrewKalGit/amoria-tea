@@ -41,11 +41,11 @@ function Nav(props) {
       <div class="flex items-center gap-4">
         <div class="block md:hidden">
           <button
-            className='hamburger-icon'
+            className="hamburger-icon"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="w-8 h-8"
+              className="hamburger-icon"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
