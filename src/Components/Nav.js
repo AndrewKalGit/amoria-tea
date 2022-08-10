@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Nav(props) {
     return (
@@ -11,34 +12,28 @@ function Nav(props) {
         </a>
       </div>
 
-      <div class="hidden md:block">
+      <div class="md:block">
         <nav aria-labelledby="header-navigation">
           <h2 class="sr-only" id="header-navigation">Header navigation</h2>
         <div class="nav-ul-container">
-          <ul class="flex items-center gap-6 text-2xl">
+          <ul class="flex items-center gap-10 text-2xl">
             <li>
-              <a class="transition hover:text-black/75" href="/">
+              <Link to="/menu" class="transition hover:text-black/75">
                 Menu
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a class="transition hover:text-black/75" href="/">
+              <Link to="/about" class="transition hover:text-black/75">
                 About
-              </a>
-            </li>
-
-            <li>
-              <a class="transition hover:text-black/75" href="/">
-                Blog
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
         </nav>
       </div>
       
-      <div class="flex items-center gap-4">
+      {/* <div class="flex items-center gap-4">
         <div class="block md:hidden">
           <button
             className="hamburger-icon"
@@ -59,7 +54,7 @@ function Nav(props) {
             </svg>
           </button>
         </div>
-      </div>
+      </div> */}
     </div>
   </div>
 </header>
