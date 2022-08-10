@@ -1,7 +1,8 @@
 html {
-  background-image: linear-gradient(#f3e0c2, #c36a3e);
+  background-image: linear-gradient(#f3e0c2, #eb905a);
   background-repeat: no-repeat;
   background-size: auto 150%;
+  background-color: #f3e0c2;
 }
 
 svg {
