@@ -7,12 +7,12 @@ import { Link } from "react-router-dom";
 
 function ItemMenus(props) {
     return (
-<div class="mt-8">
+<div class="mt-8 ml-4">
 <section>
-  <div class="px-4 py-8 w-3/4">
+  <div class="px-1 py-8 w-11/12">
     <div class="flex justify-start">
     <div className='neutral-block'>
-    <div class="flex space-x-8">
+    <div class="flex space-x-4">
         {/* Wrap these links for Routers and change */}
         <h2 class="mt-1 font-extrabold tracking-wide uppercase lg:text-xl md:text-lg sm:text-md text-xs opacity-80 hover:opacity-100">
         Signature
@@ -33,7 +33,7 @@ function ItemMenus(props) {
     <div class="grid grid-cols-2 mt-8 lg:grid-cols-4 gap-x-4 gap-y-8">
       <a href="" class="block">
         <div class="flex justify-center">
-          <strong class="relative h-6 px-4 text-xs leading-6 text-white mb-2"> <span class='bg-blue-400 pl-1 pr-1'>COLD</span> <span class='bg-red-400 pl-1 pr-1'>HOT</span></strong>
+          <strong class="relative h-6 px-4 text-xs leading-6 text-white mb-2"> <span class='bg-blue-400 pl-1 pr-1'>COLD</span><span class='bg-red-400 pl-1 pr-1'>HOT</span></strong>
         </div>
         <img
           alt="Product"
@@ -54,7 +54,7 @@ function ItemMenus(props) {
 
       <a href="" class="block">
         <div class="flex justify-center">
-          <strong class="relative h-6 px-4 text-xs leading-6 text-white mb-2"> <span class='bg-blue-400 pl-1 pr-1'>COLD</span> <span class='bg-red-400 pl-1 pr-1'>HOT</span></strong>
+          <strong class="relative h-6 px-4 text-xs leading-6 text-white mb-2"> <span class='bg-blue-400 pl-1 pr-1'>COLD</span><span class='bg-red-400 pl-1 pr-1'>HOT</span></strong>
         </div>
       
         <img

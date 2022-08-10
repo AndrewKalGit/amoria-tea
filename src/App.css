@@ -19,6 +19,15 @@ svg:hover {
   opacity: 1;
 }
 
+.FAQ-Component {
+  color: #323232;
+  font-family: 'Maven Pro', sans-serif;
+  margin-top: 36px;
+}
+
+.FAQ-bold {
+  font-weight: 700;
+}
 
 .headerForNav {}
 
@@ -68,6 +77,13 @@ svg:hover {
   font-size: 48px;
 }
 
+.maven-statement-heading2 {
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: bold;
+  color: #3d3d3d;
+  font-size: 24px;
+}
+
 .nav-ul-container {
   font-family: 'Maven Pro', sans-serif;
   font-weight: bold;
@@ -97,6 +113,14 @@ svg:hover {
     margin-top: 25px;
   }
 
+  .teas-img-container {
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+    margin-top: 25px;
+  }
+
   .maven-text-statement {
     font-family: 'Maven Pro', sans-serif;
     font-weight: 900;
@@ -116,6 +140,12 @@ svg:hover {
     margin-top: 1rem;
   }
 
+  .maven-statement-heading2 {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    color: #3d3d3d;
+    font-size: 48px;
+  }
 }
 
 @media only screen and (min-width:768px) {
@@ -132,5 +162,12 @@ svg:hover {
     font-weight: bold;
     font-size: 18px;
     margin-top: 1rem;
+  }
+
+  .maven-statement-heading2 {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    color: #3d3d3d;
+    font-size: 36px;
   }
 }

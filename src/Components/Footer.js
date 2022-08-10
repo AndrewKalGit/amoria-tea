@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer(props) {
     return (
-  <footer class="text-center">
+  <footer class="text-center mt-12">
   <div class="max-w-screen-xl px-4 py-12 mx-auto sm:px-6 lg:px-8">
     <div class="max-w-3xl mx-auto space-y-6">
       <div class="flex justify-center space-x-6">
@@ -80,15 +80,6 @@ function Footer(props) {
         tempore illo laborum nam, modi quam sequi amet quo quasi impedit iure
         eum similique pariatur alias exercitationem, porro perspiciatis esse.
         Corporis odit consequatur sint sequi.
-
-        <a
-          class="block mt-1 text-black underline decoration-solid decoration-black hover:opacity-75"
-          href="/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          External Link
-        </a>
       </p>
 
       <p class="text-xs font-medium">2022 Amoria Tea</p>
