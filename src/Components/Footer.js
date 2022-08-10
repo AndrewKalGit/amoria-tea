@@ -82,7 +82,7 @@ function Footer(props) {
         Corporis odit consequatur sint sequi.
 
         <a
-          class="block mt-1 text-pink-600 underline decoration-wavy decoration-pink-500 hover:opacity-75"
+          class="block mt-1 text-black underline decoration-solid decoration-black hover:opacity-75"
           href="/"
           target="_blank"
           rel="noopener noreferrer"

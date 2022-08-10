@@ -5,7 +5,13 @@ html {
 }
 
 svg {
-  color: #3d3d3d
+  color: #3d3d3d;
+  opacity: .9;
+  transition: .3s;
+}
+
+svg:hover {
+  opacity: 1;
 }
 
 .headerForNav {}
@@ -47,6 +53,13 @@ svg {
   font-weight: bold;
   color: #c36a3e;
   font-size: 32px;
+}
+
+.maven-statement-heading {
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: bold;
+  color: #eb905a;
+  font-size: 48px;
 }
 
 .nav-ul-container {
