@@ -3,27 +3,21 @@ import { Link } from 'react-router-dom';
 
 function Nav(props) {
     return (
-        <header className="header">
+<header>
   <div class="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
-    <div className="hamburger-menu">
-      <div class="md:flex md:items-center md:gap-12">
-        <a class="block text-teal-300" href="/">
-          <span class="sr-only">Home</span>
-        </a>
-      </div>
-
+    <div className="menu">
       <div class="md:block">
         <nav aria-labelledby="header-navigation">
           <h2 class="sr-only" id="header-navigation">Header navigation</h2>
-        <div class="nav-ul-container">
+        <div className="nav-ul-container">
           <ul class="flex items-center gap-5 text-2xl">
-            <li>
-              <Link to="/" class="transition hover:text-black/75">
+            <li className="underlined">
+              <Link to="/Menu" class="transition hover:text-black/75">
                 Menu
               </Link>
             </li>
 
-            <li>
+            <li className="underlined">
               <Link to="/about" class="transition hover:text-black/75">
                 About
               </Link>

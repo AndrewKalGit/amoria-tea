@@ -4,12 +4,12 @@ import Anc from './Components/Anc';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
 import ItemMenus from './Components/ItemMenus';
-import Statement from './Components/Statement';
-import StatementHeading from './Components/StatementHeading';
+import StatementChanger from './Components/HomePage/StatementChanger';
 import Menu from './Components/MenuComponents/Menu'
-import About from './Components/About'
+import About from './Components/AboutComponents/About'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import DecorationBanner from './Components/DecorationBanner';
+import DecorationBanner from './Components/HomePage/DecorationBanner';
+import Intro from './Components/HomePage/Intro';
 
 function App() {
 //ToDo: Ctrl Shift F 
@@ -28,11 +28,11 @@ function App() {
       <Header></Header>
       <Nav></Nav>
       <Routes>
-      <Route path="/" element={ <Menu/>}></Route>
-      <Route path="/Home" element={<DecorationBanner/>}></Route> 
-      <Route path="/about" element={<><Statement/><About/></>}></Route>
+      <Route path="/" element={<><DecorationBanner/><Intro/></>}></Route>
+      <Route path="/Menu" element={<Menu/>}></Route> 
+      <Route path="/about" element={<About/>}></Route>
       </Routes>
-       <Footer></Footer>
+      <Footer></Footer>
       </BrowserRouter>
     </div>
   );

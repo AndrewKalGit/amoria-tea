@@ -1,15 +1,24 @@
-import React from 'react';
+import { React, useState, useEffect } from 'react';
 
 function Anc(props) {
+const [ closed, setClosed ] = useState("");
 
-    return (
-<div class="relative px-4 py-3 text-white bg-indigo-600 pr-14">
-  <p class="text-sm font-medium text-left sm:text-center">
+useEffect(() => {
+    setClosed(closed => '');
+  },[]);
+
+const closeOut = () => {
+  setClosed(closed => "hide");  
+};
+
+return (
+<div className={closed} class="fixed w-full px-4 py-3 text-white bg-indigo-600 pr-14 opacity-90">
+  <p class="text-xs sm:text-sm font-medium text-left sm:text-center">
     Find us next at Hopatcong Marketplace 8/20 - 8/21
-    <a class="underline" href="https://www.facebook.com/VendorsoftheHopatcongMarketPlace/" target="_blank" rel="noreferrer"> Learn More &rarr; </a>
+    <a class="underline text-xs sm:text-sm" href="https://www.facebook.com/VendorsoftheHopatcongMarketPlace/" target="_blank" rel="noreferrer"> Learn More &rarr; </a>
   </p>
 
-  <button 
+  <button onClick={closeOut} 
     aria-label="Close"
     class="absolute p-1 transition -translate-y-1/2 rounded-lg top-1/2 right-4 bg-black/10 hover:bg-black/20"
   >

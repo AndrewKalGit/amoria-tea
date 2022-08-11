@@ -1,16 +1,16 @@
 import React from 'react';
 import Logo from './SiteImg/Amoria-Tea-Cup-Logos-Vertical.svg'
+import { Link } from 'react-router-dom';
 
 function Header(props) {
     return (
         <>
-        <a href='Home'>
-        <div class="flex justify-center mb-8">
-            <img class="max-h-24 mt-4" src={Logo} alt="logo"/>
-        </div>
-        </a>
+        <div class="flex justify-center">
+        <Link to="/" class="flex justify-center mb-8 w-20">
+            <img class="max-h-24 mt-6" src={Logo} alt="logo"/>
+        </Link>
         <div class='flex justify-center'>
-        
+        </div>
         </div>
         <div>
              <div class="flex justify-center space-x-6">

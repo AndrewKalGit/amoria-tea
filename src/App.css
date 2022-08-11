@@ -17,6 +17,14 @@ strong {
   font-size: 45px;
 }
 
+.underlined {
+  border-bottom: 2px solid;
+}
+
+.underlined:hover {
+  opacity: .75;
+}
+
 .hamburger-icon {
   color: #3d3d3d;
   opacity: 1;
@@ -31,8 +39,6 @@ strong {
 .FAQ-bold {
   font-weight: 700;
 }
-
-.headerForNav {}
 
 .man-making-tea-container {
   display: flex;
@@ -66,14 +72,43 @@ strong {
 
 .poppins {
   font-family: 'Poppins', sans-serif;
-  font-size: 24px;
-  margin-top: 48px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.poppins-change {
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 75px;
+}
+
+.poppins-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 34px;
+  background-color: #f3e0c2;
+}
+
+.poppins-bolded {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.poppins-faq {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
   margin-left: 18px;
 }
 
-.poppins-bold {
-  font-family: 'Poppins', sans-serif;
-}
 
 .maven-text-statement {
   display: none;
@@ -93,6 +128,14 @@ strong {
   font-size: 48px;
 }
 
+.background-cream {
+  background-color: #f3e0c2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
 /* class="group-hover:scale-105 transition-transform duration-500 object-cover w-full h-[500px] sm:h-[500px]" */
 
 .maven-statement-heading2 {
@@ -104,18 +147,36 @@ strong {
 }
 
 .nav-ul-container {
-  font-family: 'Maven Pro', sans-serif;
-  font-weight: bold;
-  color: #3d3d3d95;
+  font-family: 'Poppins', sans-serif;
+  color: black;
   font-size: 32px;
 }
 
-.hamburger-menu {
+.menu {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 64px;
+  margin-top: 4px;
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.poppins-bolded-responsive {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  margin-left: 4px;
   margin-top: 12px;
+}
+
+.hide {
+  display: none;
 }
 
 .hamburger-icon {
@@ -125,6 +186,52 @@ strong {
 }
 
 
+@media only screen and (min-width:768px) {
+
+  .maven {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 1rem;
+  }
+
+  .maven-statement-heading2 {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    color: #3d3d3d;
+    font-size: 36px;
+  }
+
+  .poppins {
+    font-family: 'Poppins', sans-serif;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .poppins-bolded-responsive {
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    margin-left: 4px;
+    margin-top: 12px;
+  }
+
+  .poppins-change {
+    font-family: 'Poppins', sans-serif;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+  }
+
+  .background-cream {
+    background-color: #f3e0c2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+  }
+}
 
 @media only screen and (min-width:1024px) {
 
@@ -167,29 +274,43 @@ strong {
     color: #3d3d3d;
     font-size: 48px;
   }
-}
 
-@media only screen and (min-width:768px) {
+  .poppins-change {
+    font-family: 'Poppins', sans-serif;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+  }
+
+  .background-cream {
+    background-color: #f3e0c2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+
+  .poppins {
+    font-family: 'Poppins', sans-serif;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .poppins-bolded-responsive {
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    margin-left: 4px;
+    margin-top: 12px;
+  }
 
   .man-making-tea-img {
-    display: flex;
-    width: 80%;
-    object-fit: contain;
-    margin-top: 25px;
-    height: 80%;
+    display: block;
+    height: 50%;
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 
-  .maven {
-    font-family: 'Maven Pro', sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    margin-top: 1rem;
-  }
-
-  .maven-statement-heading2 {
-    font-family: 'Maven Pro', sans-serif;
-    font-weight: bold;
-    color: #3d3d3d;
-    font-size: 36px;
-  }
 }
