@@ -5,8 +5,8 @@ function Anc(props) {
     return (
 <div class="relative px-4 py-3 text-white bg-indigo-600 pr-14">
   <p class="text-sm font-medium text-left sm:text-center">
-    Bubble tea 
-    <a class="underline" href="/alpinejs"> Learn More &rarr; </a>
+    Find us next at Hopatcong Marketplace 8/20 - 8/21
+    <a class="underline" href="https://www.facebook.com/VendorsoftheHopatcongMarketPlace/" target="_blank" rel="noreferrer"> Learn More &rarr; </a>
   </p>
 
   <button 

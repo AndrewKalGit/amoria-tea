@@ -2,7 +2,7 @@ import React from 'react';
 
 function FAQ(props) {
     return (
-<div className='FAQ-Component'>
+<div className='FAQ-componet'>
   <div class="space-y-4">
   <details class="group" open>
     <summary
@@ -40,7 +40,7 @@ function FAQ(props) {
     <summary
       class="flex items-center justify-between p-4 rounded-lg cursor-pointer"
     >
-      <h5 className="FAQ-bold">
+      <h5 class="font-medium text-gray-900">
         Lorem ipsum dolor sit amet consectetur adipisicing?
       </h5>
 

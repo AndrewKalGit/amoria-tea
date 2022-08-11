@@ -8,17 +8,30 @@ import Statement from './Components/Statement';
 import StatementHeading from './Components/StatementHeading';
 import About from './Components/About'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import DecorationBanner from './Components/DecorationBanner';
+import Menu from './SiteImg/LargeMenu.png'
 
 function App() {
+//ToDo: Ctrl Shift F 
+//General Task List:
+//Make Components files readable and organized 
+//Organize Pictures 
+//Vist us Component
+//Clean rendering for images 
+//Make smaller Menu so that it has white borders
+
   return (
     <div>
-      {/* <Anc></Anc> */}
+      <Anc></Anc>
       <BrowserRouter>
       <Header></Header>
-      <StatementHeading></StatementHeading>
       <Nav></Nav>
+      <div class="flex justify-center">
+      <img class="w-8/12 mt-12 mb-12" src={Menu} alt="Menu"/>
+      </div>
       <Routes>
-      <Route path="/" element={<ItemMenus/>}></Route>
+      <Route path="/" element={ <DecorationBanner/>}></Route>
+      <Route path="/menu" element={<ItemMenus/>}></Route> 
       <Route path="/about" element={<><Statement/><About/></>}></Route>
       </Routes>
        <Footer></Footer>

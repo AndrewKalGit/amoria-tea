@@ -6,8 +6,8 @@ import Ube from '../BubbleTeaImg/UbeLatte1.jpg';
 import Item from '../menudata';
 import { Link } from "react-router-dom";
 
-function ItemMenus(props) {
-
+function DecorationBanner(props) {
+    
     return (
 <div>
 <a
@@ -30,4 +30,4 @@ function ItemMenus(props) {
     );
 }
 
-export default ItemMenus;
+export default DecorationBanner;

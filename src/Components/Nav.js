@@ -16,7 +16,7 @@ function Nav(props) {
         <nav aria-labelledby="header-navigation">
           <h2 class="sr-only" id="header-navigation">Header navigation</h2>
         <div class="nav-ul-container">
-          <ul class="flex items-center gap-10 text-2xl">
+          <ul class="flex items-center gap-5 text-2xl">
             <li>
               <Link to="/" class="transition hover:text-black/75">
                 Menu
