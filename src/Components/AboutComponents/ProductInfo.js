@@ -4,22 +4,18 @@ import Comic from './Comic';
 function ProductInfo(props) {
     return (
         <div class='flex'>
-        <div className="about-container">
-        <div className="poppins">
-        <div>
-        </div>
+        <div className="about-container-comic">
         <div class='flex flex-col sm:flex-row-reverse'>
-        <div class="ml-1 text-sm sm:text-xl md:text-2xl lg:text-4xl lg:mt-4">
+        <div class="ml-1 text-sm sm:text-xl md:text-2xl lg:text-4xl">
         <br/>
         <strong className='poppins-bolded-responsive'> No. Powders. Ever </strong> 
         <br/>
-        <p>
+        <p class="text-sm sm:text-xl md:text-2xl lg:text-4xl lg:mt-4 mb-2">
         We worked hard to create premium tea blends that pair perfectly with freshly made fruit purees and quality milks.
         </p>
         </div>
-        <div className="man-making-tea-container">
+        <div className="comic-container">
          <Comic></Comic>
-        </div>
         </div>
         </div>
         </div>
