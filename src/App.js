@@ -6,10 +6,10 @@ import Header from './Components/Header';
 import ItemMenus from './Components/ItemMenus';
 import Statement from './Components/Statement';
 import StatementHeading from './Components/StatementHeading';
+import Menu from './Components/MenuComponents/Menu'
 import About from './Components/About'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import DecorationBanner from './Components/DecorationBanner';
-import Menu from './SiteImg/LargeMenu.png'
 
 function App() {
 //ToDo: Ctrl Shift F 
@@ -19,6 +19,7 @@ function App() {
 //Vist us Component
 //Clean rendering for images 
 //Make smaller Menu so that it has white borders
+//Relocate all the files that you don't use or need
 
   return (
     <div>
@@ -26,12 +27,9 @@ function App() {
       <BrowserRouter>
       <Header></Header>
       <Nav></Nav>
-      <div class="flex justify-center">
-      <img class="w-8/12 mt-12 mb-12" src={Menu} alt="Menu"/>
-      </div>
       <Routes>
-      <Route path="/" element={ <DecorationBanner/>}></Route>
-      <Route path="/menu" element={<ItemMenus/>}></Route> 
+      <Route path="/" element={ <Menu/>}></Route>
+      <Route path="/Home" element={<DecorationBanner/>}></Route> 
       <Route path="/about" element={<><Statement/><About/></>}></Route>
       </Routes>
        <Footer></Footer>

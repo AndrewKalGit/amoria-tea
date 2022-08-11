@@ -1,6 +1,5 @@
 import React from 'react';
-import TeaMaking from '../SiteImg/man-making-tea.jpg'
-import TeaCompliation from '../SiteImg/Compliation2.jpg'
+import TeaMaking from './SiteImg/man-making-tea.jpg'
 
 function Statement(props) {
 // ToDo
