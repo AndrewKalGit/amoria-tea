@@ -171,11 +171,12 @@ strong {
 .poppins-header-responsive {
   background-color: #f3e0c2;
   font-family: 'Poppins', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   height: 50px;
   display: flex;
   justify-content: center;
   align-content: center;
+  padding-top: 12px;
 }
 
 .poppins-bolded-responsive {

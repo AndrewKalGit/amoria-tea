@@ -5,7 +5,7 @@ function DecorationBanner(props) {
     
     return (
 <div>
-<a
+<div
   class="block overflow-hidden group"
   href="/products/basic-tee"
 >
@@ -14,7 +14,7 @@ function DecorationBanner(props) {
     src={Strawberry}
     alt="Basic Tee Product"
   />
-</a>
+</div>
 
 </div>
 
