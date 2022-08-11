@@ -1,8 +1,6 @@
 import React from 'react';
-import FAQ from './FAQ'
 import MileStones from './MileStones';
 import Statement from './Statement';
-import Reviews from './Reviews';
 import ProductInfo from './ProductInfo'
 
 function About(props) {
@@ -12,7 +10,7 @@ function About(props) {
             <Statement></Statement>
             {/* <Reviews></Reviews> */}
             <ProductInfo></ProductInfo>
-            <FAQ></FAQ>
+            {/* <FAQ></FAQ> */}
         </div>
     );
 }

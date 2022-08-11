@@ -182,7 +182,7 @@ strong {
 .poppins-bolded-responsive {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
-  margin-left: 4px;
+  margin-left: -2px;
   margin-top: 12px;
 }
 

@@ -9,7 +9,7 @@ function ProductInfo(props) {
         <div>
         </div>
         <div class='flex flex-col sm:flex-row-reverse'>
-        <div class="ml-2 text-sm sm:text-xl md:text-2xl lg:text-4xl">
+        <div class="ml-1 text-sm sm:text-xl md:text-2xl lg:text-4xl lg:mt-4">
         <br/>
         <strong className='poppins-bolded-responsive'> No. Powders. Ever </strong> 
         <br/>
