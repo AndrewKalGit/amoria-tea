@@ -82,7 +82,7 @@ strong {
   font-size: 50px;
   display: flex;
   justify-content: center;
-  margin-bottom: 75px;
+  margin-bottom: 25px;
 }
 
 .poppins-header {
@@ -133,7 +133,7 @@ strong {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px;
+  height: 75px;
 }
 
 /* class="group-hover:scale-105 transition-transform duration-500 object-cover w-full h-[500px] sm:h-[500px]" */
@@ -163,6 +163,16 @@ strong {
 .poppins {
   font-family: 'Poppins', sans-serif;
   font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.poppins-header-responsive {
+  background-color: #f3e0c2;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -221,7 +231,7 @@ strong {
     font-size: 100px;
     display: flex;
     justify-content: center;
-    margin-bottom: 75px;
+    margin-bottom: 50px;
   }
 
   .background-cream {

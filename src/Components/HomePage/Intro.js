@@ -4,7 +4,7 @@ import StatementChanger from './StatementChanger';
 function Intro(props) {
     return (
         <>
-        <div className='poppins-header'>
+        <div className='poppins-header-responsive'>
             The Premier Tea Shop in NJ
         </div>
         <StatementChanger></StatementChanger>
