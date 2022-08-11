@@ -191,9 +191,11 @@ strong {
 
 .poppins-bolded-responsive {
   font-family: 'Poppins', sans-serif;
-  font-size: 18px;
-  margin-left: -2px;
-  margin-top: 4px;
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -4px;
 }
 
 .hide {
@@ -216,9 +218,10 @@ strong {
 @media only screen and (min-width: 640px) {
   .poppins-bolded-responsive {
     font-family: 'Poppins', sans-serif;
-    font-size: 32px;
-    margin-left: 4px;
-    margin-top: 4px;
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    justify-content: start;
   }
 
   .poppins-bolded {
@@ -268,9 +271,8 @@ strong {
 
   .poppins-bolded-responsive {
     font-family: 'Poppins', sans-serif;
-    font-size: 36px;
-    margin-left: 4px;
-    margin-top: 4px;
+    font-size: 25px;
+    font-weight: 700;
   }
 
   .poppins-change {
@@ -362,9 +364,8 @@ strong {
 
   .poppins-bolded-responsive {
     font-family: 'Poppins', sans-serif;
-    font-size: 60px;
-    margin-left: 4px;
-    margin-top: 4px;
+    font-size: 50px;
+    font-weight: 700;
   }
 
   .man-making-tea-img {

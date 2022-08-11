@@ -15,9 +15,9 @@ function Statement(props) {
         <div class='flex flex-col sm:flex-row'>
         <div class="ml-1 text-sm sm:text-xl md:text-2xl lg:text-4xl">
         <br/>
-        <strong className='poppins-bolded-responsive'> We are Amoria Tea.. </strong> 
+        <strong className='poppins-bolded-responsive'> <span className='poppins-bolded-responsive'>We are Amoria Tea..</span> </strong> 
         <br/>
-        <p class="mb-2">
+        <p class="mb-2 sm:-mt-4">
         an up and coming environmentally conscious and consumer health conscious bubble tea shop based in NJ. 
         </p>
         </div>

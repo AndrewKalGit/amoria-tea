@@ -8,9 +8,9 @@ function ProductInfo(props) {
         <div class='flex flex-col sm:flex-row-reverse'>
         <div class="-mt-2 ml-1 text-sm sm:text-xl md:text-2xl lg:text-4xl">
         <br/>
-        <strong className='poppins-bolded-responsive'> No. Powders. Ever </strong> 
+        <strong className='poppins-bolded-responsive'> <span className="poppins-bolded-responsive"> No. Powders. Ever</span> </strong> 
         <br/>
-        <p class="text-sm sm:text-xl md:text-2xl lg:text-4xl lg:mt-4 mb-2">
+        <p class="text-sm sm:text-xl md:text-2xl lg:text-4xl sm:-mt-4 mb-2">
         We worked hard to create premium tea blends that pair perfectly with freshly made fruit purees and quality milks.
         </p>
         </div>
