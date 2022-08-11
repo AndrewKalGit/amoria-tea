@@ -3,8 +3,6 @@ import './App.css';
 import Anc from './Components/Anc';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
-import ItemMenus from './Components/ItemMenus';
-import StatementChanger from './Components/HomePage/StatementChanger';
 import Menu from './Components/MenuComponents/Menu'
 import About from './Components/AboutComponents/About'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'

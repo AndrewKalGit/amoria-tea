@@ -42,7 +42,7 @@ strong {
 
 .man-making-tea-container {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .man-making-tea-img {
